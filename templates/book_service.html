@@ -1,0 +1,156 @@
+<!------ Include the above in your HEAD tag ---------->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Book Service</title>
+    <!--Made with love by Mutiullah Samim -->
+
+    <!--Bootsrap 4 CDN-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+
+    <!--Fontawesome CDN-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+
+    <!--Custom styles-->
+    <link rel="stylesheet" type="text/css" href="CSS/signup.css" />
+
+    <link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Vroom</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+            </div>
+            <div>
+                <nav class="navbar navbar-light bg-dark">
+                    <form class="container-fluid justify-content-start">
+                    <button class="btn btn-outline-success me-2" type="button">Logout</button>
+                  
+                </form>
+                </nav>
+          </div>
+        </div>
+      </nav>
+
+      <section class="h-100 bg-dark">
+        <div class="container py-5 h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col">
+              <div class="card card-registration my-4">
+                <div class="row g-0">
+                  <div class="col-xl-6 d-none d-xl-block">
+                    <img
+                      src="./Images/ss-9.jpg"
+                      alt="Sample photo"
+                      class="img-fluid"
+                      style="border-top-left-radius: .25rem; border-bottom-left-radius: .25rem;"
+                    />
+                  </div>
+                  <div class="col-xl-6">
+                    <div class="card-body p-md-5 text-black">
+                      <h3 class="mb-5 text-uppercase">Book Service</h3>
+      
+                      <hr>
+                      <h4>Personal Details</h4>
+                      <br>
+                      <div class="row">
+                        <div class="col-md-6 mb-4">
+                          <div class="form-outline">
+                            <input type="text" id="form3Example1m" class="form-control form-control-lg" />
+                            <label class="form-label" for="form3Example1m">First name</label>
+                          </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                          <div class="form-outline">
+                            <input type="text" id="form3Example1n" class="form-control form-control-lg" />
+                            <label class="form-label" for="form3Example1n">Last name</label>
+                          </div>
+                        </div>
+                      </div>
+      
+                      <div class="row">
+                        <div class="col-md-6 mb-4">
+                          <div class="form-outline">
+                            <input type="email" id="form3Example1m1" class="form-control form-control-lg" />
+                            <label class="form-label" for="form3Example1m1">Email Address</label>
+                          </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                          <div class="form-outline">
+                            <input type="text" id="form3Example1n1" class="form-control form-control-lg" />
+                            <label class="form-label" for="form3Example1n1">Contact</label>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <hr>
+                      <h4>Vehicle Details</h4>
+                      <br>
+                      <div class="form-outline mb-4">
+                        <input type="text" id="form3Example8" class="form-control form-control-lg" />
+                        <label class="form-label" for="form3Example8">Vehicle Name</label>
+                      </div>
+      
+                      <div class="form-outline mb-4">
+                        <input type="text" id="form3Example9" class="form-control form-control-lg" />
+                        <label class="form-label" for="form3Example9">Vehicle Registration Number</label>
+                      </div>
+      
+                      <div class="form-outline mb-4">
+                        <input type="text" id="form3Example99" class="form-control form-control-lg" />
+                        <label class="form-label" for="form3Example99">Vehicle VIN Number</label>
+                      </div>
+      
+                      <div class="form-outline mb-4">
+                        <input type="text" id="form3Example97" class="form-control form-control-lg" />
+                        <label class="form-label" for="form3Example97">Vehicle Model Year</label>
+                      </div>
+      
+                      <div class="d-flex justify-content-end pt-3">
+                        <button type="button" class="btn btn-light btn-lg">Reset all</button>
+                        <button type="button" class="btn btn-warning btn-lg ms-2">Fill Service details</button>
+                      </div>
+      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+  </body>
+</html>
