@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Allura|Josefin+Sans");
+
+.carousel-caption{
+  top: 10%;
+  transform: translateY(-50%);
+  bottom: initial;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.carousel-caption h1{
+  text-transform: uppercase;
+  line-height: 50px;
+  margin-bottom: 15px;
+}
+.carousel-caption h3{
+    /* color: #fb2274; */
+    color: aquamarine;
+
+}
+
+.item{
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}

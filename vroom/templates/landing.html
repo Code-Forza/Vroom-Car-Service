@@ -2,6 +2,10 @@
 
 {% block title %} Vroom Car Service {% endblock title %} 
 
+{% block head %}
+  <link rel="stylesheet" href="{{url_for('static', filename='css/landing.css')}}">
+{% endblock head %}
+
 {% block nav %}
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -52,7 +56,7 @@
 
 <div
   id="carouselExampleInterval"
-  class="carousel slide"
+  class="carousel slide carousel-fade"
   data-bs-ride="carousel"
 >
   <div class="carousel-inner">
@@ -63,8 +67,8 @@
         alt="There is a Image"
       />
       <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+        <h1><b>Vroom</b></h1>
+        <h3>Complete solutions to breakdowns !!</h3>
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="3000">
@@ -73,6 +77,10 @@
         class="d-block w-100"
         alt="There is a Image"
       />
+      <div class="carousel-caption d-none d-md-block">
+        <h1 class="mt-5">"A car is not only a vehicle. Sometimes it’s just like a dream"</h1>
+        <h3> - And we care for your dreams.</h3>
+      </div>
     </div>
     <div class="carousel-item">
       <img
@@ -80,6 +88,10 @@
         class="d-block w-100 mw-100"
         alt="There is a image"
       />
+      <div class="carousel-caption d-none d-md-block">
+        <h1 class="mt-5 bolder" >Come here once and no need to go anywhere else!!</h1>
+        <!-- <h3>So when are you planning your visit??</h3> -->
+      </div>
     </div>
   </div>
   <button
