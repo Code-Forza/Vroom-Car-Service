@@ -1,3 +1,11 @@
+html,body{
+    background-image: url("../img/SS-16.jpg");
+    background-size: 20%;
+    background-repeat: repeat;
+    /* height: 50px; */
+    /* background-color: darkgray; */
+}
+
 span {
     display: inline-block;
     width: 70px;
@@ -5,3 +13,4 @@ span {
     margin: 6px;
     background-color: #DCDCDC;
 }
+
